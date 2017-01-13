@@ -81,5 +81,8 @@ anchor.onclick = makeRed;
 document.body.appendChild(anchor);*/
 
 
+//Тест отката к предыдущей версии в GIT - это новые изменения - не нужны
+
+
 
 
