@@ -76,14 +76,17 @@ function printWithTags($string, $callback1, $callback2){
 	return true;
 }
 
+//Анонимная функция - нет имени 
 $tagP = function($text){
 	printf('<p style="color:red;">%s</p>', $text);
 };
 
+//Анонимная функция - нет имени 
 $tagB = function($text){
 	printf('<b style="color:blue;">%s</b>', $text);
 };
 
+//Анонимная функция - нет имени 
 $tagDiv = function($text){
 	printf('<div>%s</div>', $text);
 };
